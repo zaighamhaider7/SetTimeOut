@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ajax.css">
+</head>
+
+<body id="body">
+   <div class="addouter">
+    <div class="add">
+        <h3>Ad</h3>
+        <img src="./demo.jpeg" height="80%" width="90%" alt="">
+
+        <div class="btns">
+            <button class="btn close">
+                Close
+            </button>
+            <button class="btn open">
+                Open
+            </button>
+        </div>
+    </div>
+   </div>
+   
+<div id="container">
+
+</div>
+</div>
+
+
+
+    <!-- <a href="index.html">back</a> -->
+
+    <script>
+        setTimeout(() => {
+            document.querySelector(".addouter").style.display = "flex";
+            document.getElementById("body").style.backdropFilter = `blur(10px)`
+        }, 5000);
+
+
+        document.querySelector(".close").addEventListener("click",()=>{
+            document.querySelector(".addouter").style.display = "none"
+            document.getElementById("body").style.backdropFilter = `blur(0px)`
+        })
+    </script>
+    <script src="json.js"></script>
+</body>
+
+</html>
