@@ -37,13 +37,13 @@
     <script>
         setTimeout(() => {
             document.querySelector(".addouter").style.display = "flex";
-            document.getElementById("body").style.backdropFilter = `blur(10px)`
-        }, 5000);
+            document.getElementById("container").style.filter = `blur(10px)`
+        }, 2000);
 
 
         document.querySelector(".close").addEventListener("click",()=>{
             document.querySelector(".addouter").style.display = "none"
-            document.getElementById("body").style.backdropFilter = `blur(0px)`
+            document.getElementById("container").style.filter = `blur(0px)`
         })
     </script>
     <script src="json.js"></script>
