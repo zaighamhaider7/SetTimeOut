@@ -19,8 +19,13 @@ form{
     display: flex;
     justify-content: right;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 #loginlink a{
     text-decoration: underline;
     color: black;
+}
+select{
+    /* width: 16.5em !important;
+    height: 2em; */
 }

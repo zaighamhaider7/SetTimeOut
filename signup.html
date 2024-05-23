@@ -40,8 +40,14 @@
 
            <!-- gender input -->
         <div data-mdb-input-init class="form-outline">
-            <input type="text" id="form2Example5" class="form-control" placeholder="Enter Your gender" />
+            <!-- <input type="text" id="form2Example5" class="form-control" placeholder="Enter Your gender" /> -->
+            <select id="form2Example5" class="form-control">
+              <option value="">Select Gender</option>
+              <option value="">Male</option>
+              <option value="">Female</option>
+            </select>
           </div>
+          <p id="errormsg" class="error"></p>
 
           <div id="loginlink">
             <a href="./login.html">already have an account?</a>
