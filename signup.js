@@ -36,6 +36,7 @@ document.getElementById("signup").addEventListener("click", () => {
         // document.getElementById("gendererror").innerHTML = ""
         document.getElementById("errormsg").innerHTML = ""
     }
+    
     // else if(!username && pass && email && age) {
     //     document.getElementById("usererror").innerHTML = "incorrect username"
     //     document.getElementById("passerror").innerHTML = ""

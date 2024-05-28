@@ -12,8 +12,8 @@
 
 <div class="logo">
     <div class="logoinner">
-        <img src="./music.png" height="150px" width="auto" alt="">
-        <h1>
+        <img src="./music.png" height="150px" width="auto" alt="" id="logoimg">
+        <h1 id="h1">
             MUSIC
         </h1>
     </div>
@@ -42,27 +42,9 @@
 
 
 
-    <!-- <a href="index.html">back</a> -->
-
-    <script>
 
 
-          setTimeout(() => {
-            document.querySelector(".logo").style.display = "none";
-        }, 2000);
-
-        setTimeout(() => {
-            document.querySelector(".addouter").style.display = "flex";
-            document.getElementById("container").style.filter = `blur(10px)`
-        }, 5000);
-
-
-
-        document.querySelector(".close").addEventListener("click",()=>{
-            document.querySelector(".addouter").style.display = "none"
-            document.getElementById("container").style.filter = `blur(0px)`
-        })
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="json.js"></script>
 </body>
 
